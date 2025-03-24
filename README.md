@@ -1,102 +1,69 @@
-# FOSSHACK 2025
+# Welcome to your Lovable project
 
-## Kompass: Where Learning Meets Collaboration
-In today’s fast-paced and increasingly digital academic world, students need more than just traditional tools to excel—they need a supportive, interactive, and collaborative environment that seamlessly blends productivity with social connection. This is where Kompass comes into play.
-Kompass is an all-in-one web platform thoughtfully designed to revolutionize how students approach learning, collaboration, and networking. As the name suggests, Kompass serves as a guiding tool, pointing students in the right direction by offering a dynamic ecosystem that integrates essential educational and social features.
-At the heart of Kompass is its unique Live Studyroom, a virtual space where students can join live study sessions, work on assignments together, and keep each other accountable in a focused, distraction-free environment. Whether preparing for exams or working on projects, the Live Studyroom creates a sense of community and shared purpose.
-Complementing this is the Library, a centralized repository where users can access shared academic resources such as notes, study guides, and reference materials, all organized for easy navigation and contribution. The Social section of Kompass enables students to interact beyond academics—building friendships, discussing ideas, and participating in vibrant discussions that extend their network.
-Each user also has a dedicated Profile section where they can showcase their academic interests, achievements, and personal study goals, creating a personalized experience within the Kompass community.
-Kompass aims to bridge the gap between productivity and social engagement. By providing students with tools to manage their studies while fostering peer-to-peer interaction, Kompass encourages a more collaborative, motivated, and connected learning environment.
-Our mission is to empower students worldwide by offering a platform that enhances learning efficiency, nurtures a sense of belonging, and ultimately helps them reach their academic goals with confidence and clarity.
+## Project info
 
-## Team members
-- Abhinand A S
-- Anoop Krishna 
-- Alphin Bijeesh V
-- Abhinanth M S
+**URL**: https://lovable.dev/projects/2ca32663-37a2-47bb-bbc9-dbc37a7e4776
 
-## How it Works ?
+## How can I edit this code?
 
-1. Live Study Room
-Kompass offers a virtual study room where students can join live sessions. Whether you want to focus silently alongside peers or engage in collaborative discussions, the study room simulates a real-life group study experience. Users can create or join existing rooms, turn on timers, share screens, and even track their study hours.
+There are several ways of editing your application.
 
-2. Digital Library
-Access a centralized digital library filled with educational resources, notes, guides, and curated materials shared by students and educators. Students can also upload and organize their own resources into personal or public collections, making it easy to share knowledge and collaborate.
+**Use Lovable**
 
-3. Social Space
-The social feed allows students to post updates, ask questions, share insights, or simply connect with fellow learners. Engage with peers through comments, likes, and discussion threads to build a supportive academic community.
+Simply visit the [Lovable Project](https://lovable.dev/projects/2ca32663-37a2-47bb-bbc9-dbc37a7e4776) and start prompting.
 
-4. Personalized Profile
-Each user gets a customizable profile where they can showcase their academic interests, completed study hours, shared resources, and contributions to the community. Profiles are designed to help students network with like-minded peers and form productive study groups.
+Changes made via Lovable will be committed automatically to this repo.
 
-5. Integrated Productivity Tools
-Kompass integrates tools like to-do lists, Pomodoro timers, and focus-tracking to boost individual productivity. These tools are directly accessible inside the platform so users can stay organized without switching apps.
+**Use your preferred IDE**
 
-8. Safe & Student-Friendly Environment
-We prioritize creating a positive, distraction-free space for students. Our community guidelines and moderation features ensure that Kompass stays focused on academic growth and healthy peer interaction.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## Libraries used
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-1. ReactJS
-2. NodeJS
-3. Bootstrap
-4. MagicUI
+Follow these steps:
 
-## How to configure
-1. Prerequisites
-Before you begin, ensure that you have the following installed on your system:
-Node.js and npm (for backend & frontend dependencies)
-A code editor (e.g., VS Code)
-A web browser (e.g., Chrome or Firefox)
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-2. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-repo/kompass.git
-cd kompass
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-3. Install Dependencies
-Navigate to the project root and run:
-bash
-Copy
-Edit
-npm install
-This will install all necessary packages required to run Kompass locally.
+# Step 3: Install the necessary dependencies.
+npm i
 
-4. Configure Environment Variables
-Create a .env file in the root directory and add your environment-specific variables, for example:
-env
-Copy
-Edit
-PORT=3000
-DATABASE_URL=your_database_connection_string
-JWT_SECRET=your_secret_key
-Make sure to replace placeholders with actual values according to your setup.
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-5. Start the Development Server
-To run Kompass in development mode:
-bash
-Copy
-Edit
-npm start
-The website will typically be available at http://localhost:3000.
+**Edit a file directly in GitHub**
 
-6. Database Setup
-If Kompass uses a database (e.g., MongoDB, MySQL, or PostgreSQL), ensure that:
-The database server is installed and running.
-The connection string is properly set in your .env file.
-Migrations or seed scripts (if any) are run to initialize the database.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-7. Optional: Build for Production
-To create an optimized build of the project:
-bash
-Copy
-Edit
-npm run build
-Then you can deploy it to your preferred hosting platform (e.g., Vercel, Netlify, or a custom server).
+**Use GitHub Codespaces**
 
-## How to Run
-To run this program:
-1. npm i
-2. npm run dev
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/2ca32663-37a2-47bb-bbc9-dbc37a7e4776) and click on Share -> Publish.
+
+## I want to use a custom domain - is that possible?
+
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
